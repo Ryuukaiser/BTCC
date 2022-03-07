@@ -24,7 +24,12 @@ namespace WindowsForms
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
+            string user = txtUserName.Text;
+            string password = txtpassword.Text;
+            if (user == "admin" && password == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công");
+            }
         }
     }
 }
