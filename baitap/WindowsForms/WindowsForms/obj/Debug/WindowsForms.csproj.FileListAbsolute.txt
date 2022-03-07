@@ -8,3 +8,14 @@ C:\Users\Win10\OneDrive\Máy tính\BTCC\baitap\WindowsForms\WindowsForms\obj\Deb
 C:\Users\Win10\OneDrive\Máy tính\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
 C:\Users\Win10\OneDrive\Máy tính\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.exe
 C:\Users\Win10\OneDrive\Máy tính\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.pdb
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\bin\Debug\WindowsForms.exe.config
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\bin\Debug\WindowsForms.exe
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\bin\Debug\WindowsForms.pdb
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.csproj.AssemblyReference.cache
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Form2.resources
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.exe
+D:\ALL\game\BTCC\baitap\WindowsForms\WindowsForms\obj\Debug\WindowsForms.pdb

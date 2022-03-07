@@ -28,7 +28,10 @@ namespace WindowsForms
             string password = txtpassword.Text;
             if (user == "admin" && password == "admin")
             {
-                MessageBox.Show("Đăng nhập thành công");
+                Form2 frm2 = new Form2();
+                this.Hide();
+                frm2.ShowDialog();
+                this.Show();
             }
         }
     }
