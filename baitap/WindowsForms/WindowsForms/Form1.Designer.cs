@@ -34,7 +34,9 @@ namespace WindowsForms
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +58,7 @@ namespace WindowsForms
             // 
             this.txtUserName.Location = new System.Drawing.Point(168, 91);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(100, 20);
+            this.txtUserName.Size = new System.Drawing.Size(130, 20);
             this.txtUserName.TabIndex = 3;
             // 
             // label3
@@ -66,21 +68,33 @@ namespace WindowsForms
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Mật Khẩu";
+            this.label3.Text = "Password";
             // 
-            // txtmatkhau
+            // txtpassword
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(168, 143);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(100, 20);
-            this.txtmatkhau.TabIndex = 6;
+            this.txtpassword.Location = new System.Drawing.Point(168, 143);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.PasswordChar = '*';
+            this.txtpassword.Size = new System.Drawing.Size(130, 20);
+            this.txtpassword.TabIndex = 6;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(183, 187);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(60, 44);
+            this.btnLogin.TabIndex = 7;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
@@ -97,7 +111,9 @@ namespace WindowsForms
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.Button btnLogin;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
